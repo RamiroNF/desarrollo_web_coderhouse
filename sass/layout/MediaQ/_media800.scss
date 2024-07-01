@@ -1,0 +1,19 @@
+@media (max-width:800px){
+    
+    main{
+        margin: auto;
+        padding-top: 40%;
+        display: grid;
+        grid-template-columns: repeat(
+            auto-fit,
+            minmax(
+                150px,
+                1fr
+            )
+        )
+    }
+
+    img{
+        width: 100px;
+    }
+}
