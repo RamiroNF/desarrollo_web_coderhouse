@@ -1,19 +1,19 @@
-@media (max-width:800px){
-    
-    main{
-        margin: auto;
-        padding-top: 40%;
-        display: grid;
-        grid-template-columns: repeat(
-            auto-fit,
-            minmax(
-                150px,
-                1fr
-            )
-        )
+@media (max-width: 800px) {
+    main {
+      padding: 1.5rem;
+      padding-top: 200px;
     }
-
-    img{
-        width: 100px;
+  
+    .main-content {
+      max-width: 100%;
     }
-}
+  
+    .main-content p {
+      font-size: 1rem;
+      margin-bottom: 1.2rem;
+    }
+  
+    .main-content img {
+      margin-bottom: 1.2rem;
+    }
+  }
