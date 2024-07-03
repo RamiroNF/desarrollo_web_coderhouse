@@ -1,7 +1,9 @@
 @media (max-width: 800px) {
     main {
       padding: 1.5rem;
-      padding-top: 200px;
+      padding-top: 100px;
+      margin-left: 0;
+      margin-right: 0;
     }
   
     .main-content {
@@ -28,8 +30,12 @@
       border-radius: 15px;
       }
 
+      h2, h3 {
+        text-align: center;
+      }
+
       .ussection p {
-        font-size: 20px;
+        font-size: map-get($medidas, m );
         padding-bottom: 10px;
         padding-top: 20px;
         margin-right: auto;
@@ -37,11 +43,57 @@
         
         }
 
+      .subtittle2 {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
       .medio p {
         font-size: 20px;
         padding-bottom: 10px;
         padding-top: 20px;
         margin-right: auto;
         margin-left: auto;
+      }
+
+      .halfImpression img {
+        flex: 0 0 auto;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 10px ;
+        border: 2px solid #01CE8D;
+        border-radius: 15px;
+      }
+
+      .halfImpression p {
+        font-size: map-get($medidas, m );
+        padding-bottom: 10px;
+        padding-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .half img {
+        flex: 0 0 auto;
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        margin-top: 25px;
+        border-radius: 10px ;
+        border: 2px solid #01CE8D;
+        border-radius: 15px;
+      }
+
+      .half p {
+        font-size: map-get($medidas, m );
+        padding-bottom: 10px;
+        padding-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 20px;
+        padding-left: 20px;
       }
   }
