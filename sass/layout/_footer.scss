@@ -14,12 +14,12 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: $color-text;
 }
 
 .usItems {
     display: flex;
     flex-direction: column;
-    color: black;
+    color: $color-text;
     margin: 40px;
 }
