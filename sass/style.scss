@@ -5,16 +5,3 @@
 @import "./layout/footer";
 @import "./layout/MediaQ/media800";
 @import "./layout/MediaQ/media320";
-
-
-
-
-.medio p {
-    overflow: auto;
-    padding: 10px;
-    max-width: 1000px;
-    margin: 0 auto;
-    gap: 0.5rem;
-    resize: (auto-fit,minmax(100px,1fr));
-    
-}
